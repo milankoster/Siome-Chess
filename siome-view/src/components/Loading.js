@@ -2,7 +2,7 @@ import React from 'react';
 
 const Loading = () => {
     return (
-        <div>
+        <div style={{color: 'white'}}>
             Redirecting...
         </div>
     );
