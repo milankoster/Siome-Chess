@@ -68,7 +68,7 @@ Most pages will be built up out of a sidebar and the rest of the content. The si
 
 The homepage will be used largely as a welcome page with the post important navigation links separately available. These can also be found in the sidebar.
 
-<img src="https://image.prntscr.com/image/7nO9h4zNQXWIq910K5c5pQ.png">
+<img src="https://image.prntscr.com/image/7nO9h4zNQXWIq910K5c5pQ.png" width=70%>
 
 In a Faq section users can find answers to some common questions. The login and logout buttons will also be a part of the sidebar menu. The logo is taken from chess.com, with the name replaced to siome.com.
 
@@ -76,7 +76,7 @@ You can navigate the app without logging in. While a lot of features are availab
 
 I’ve done my best to make the homepage as responsive as possible by creating a wrapper that imports the page as child prop. This way, the responsive wrapper can be used for all other pages.
 
-![](https://i.imgur.com/Oh9hnyH.gif)
+<img src="https://i.imgur.com/Oh9hnyH.gif" width=70%>
 
 The chessboard image automatically shrinks at the pages gets smaller and disappears at a certain width. The buttons and footer also scale proportionally to the page. Once the page gets even thinner and begins to near mobile format, the sidebar disappears into a hamburger menu.
 
