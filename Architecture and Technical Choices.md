@@ -109,7 +109,7 @@ Object Relational Mapping allows us to write simple or complicated SQL queries u
 
 When referring to ORM, people generally refer to one of the many libraries that make this possible.
 
-![](https://i.imgur.com/HzGKN7g.png)
+<img src="https://i.imgur.com/HzGKN7g.png" width=70%>
 
 In SpringBoot, one of the most popular tools to implement is Hibernate. While there are many ORMs available in Java I decided to go with Hibernate because of how commonly it is used and how well it is documented.
 
@@ -127,7 +127,7 @@ The cypress documentation explains very well how to [install](https://docs.cypre
 
 Cypress does require both your front-end and back-end to be running. I separated my tests in a file per page. Components such as the navigation sidebar are tested in their own file as well, so they don’t need to be tested on every page that they’re rendered.
 
-![](https://i.imgur.com/aXKYFot.png)
+<img src="https://i.imgur.com/aXKYFot.png" width=70%>
 
 It is possible to test one of the files or run all tests at once. Cypress opens the browser of your choosing and begins clicking through the app. I check whether all navigation links lead to where they should and whether various components are visible when they should be. It is also possible to specify the viewport as a variable, allowing you to check whether your page resizes the way you intend it to.
 
@@ -137,7 +137,7 @@ _“Docker is a set of platform as a service products that use OS-level virtuali
 
 Each of my services builds a docker image using a Dockerfile, which is a text document of instructions that contains a set of commands that a user could call. I tag all the files with a name, allowing me to easily find them in docker desktop.
 
-![](https://i.imgur.com/9UyOd2M.png)
+<img src="https://i.imgur.com/9UyOd2M.png" width=70%>
 
 Instead of manually creating a container for every image, I make use of a docker compose file which creates and starts them automatically. Although mine is in the game-service the docker-compose file can be located in any of the services.
 
