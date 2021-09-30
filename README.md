@@ -7,6 +7,8 @@ Because this was a school project the focus was more on the general architecture
 
 <img src="https://i.imgur.com/4oxvJIP.gif" width=60%>
 
+## File Structure
+
 For the full functionality of the project it's necessary to run the following files: 
 - [Service Registry](https://github.com/Desoxyr/Siome/tree/master/service-registry)
 - [API Gateway](https://github.com/Desoxyr/Siome/tree/master/api-gateway)
