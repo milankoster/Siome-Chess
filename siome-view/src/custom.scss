@@ -1,0 +1,57 @@
+@import 'constants';
+$body-bg: $gray;
+
+
+//React Pro Sidebar
+$sidebar-bg-color: $darkGray !default;
+$sidebar-color: $grayFont !default;
+$sidebar-width: 200px !default;
+$highlight-color: $lightGrayFont !default;
+$submenu-bg-color: $darkGray !default;
+$submenu-bg-color-collapsed: $darkGray !default;
+@import '~react-pro-sidebar/dist/scss/styles.scss';
+
+
+
+@import '~bootstrap/scss/bootstrap.scss';
+//Buttons
+.btn-secondary {
+  @include button-variant($gray, $gray, $darkestGray, $darkestGray, $darkestGray, $darkestGray);
+  color: $grayFont;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.btn-secondary:hover, .btn-secondary:active, .btn-secondary:focus {
+  color: $grayFont;
+}
+
+.btn-green{
+  background-color: #7fa650;
+  color: white;
+  border-radius: 14px;
+  box-shadow: 0 6px #537133;
+}
+
+.btn-green:hover, .btn-green:active, .btn-green:focus {
+  background-color: #95bb4a;
+  color: white;
+  border-radius: 14px;
+  box-shadow: 0 6px #537133;
+}
+
+.btn-gray {
+  background-color: #413e3c;
+  color: #b2b7b8;
+  border-radius: 14px;
+  box-shadow: 0 6px #383532;
+}
+
+.btn-gray:hover, .btn-gray:active, .btn-gray:focus{
+  background-color: #52504d;
+  color: white;
+  border-radius: 14px;
+  box-shadow: 0 6px #383532;
+}
+

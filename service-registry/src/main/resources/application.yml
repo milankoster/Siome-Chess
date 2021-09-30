@@ -1,0 +1,10 @@
+server:
+  port: 8761
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    serviceUrl:
+      # Will get overridden in docker-compose
+      defaultZone: http://localhost:8761/eureka

@@ -1,0 +1,53 @@
+version: "3"
+services:
+  eureka-server:
+    container_name: eureka-server
+    image: service-registry:latest
+    ports:
+      - 8761:8761
+    networks:
+      - siome-network
+
+  game-service:
+    container_name: game-service
+    image: desox/siome-game-service:latest
+    ports:
+      - 9010:9010
+    networks:
+      - siome-network
+    depends_on:
+      - eureka-server
+    environment:
+      EUREKA_CLIENT_SERVICEURL_DEFAULTZONE: http://eureka-server:8761/eureka
+
+
+  gateway:
+    container_name: gateway
+    image: api-gateway:latest
+    ports:
+      - 9191:9191
+    networks:
+      - siome-network
+    depends_on:
+      - eureka-server
+    environment:
+      # Important for clients to register with eureka
+      EUREKA_CLIENT_SERVICEURL_DEFAULTZONE: http://eureka-server:8761/eureka
+
+  frontend:
+    container_name: frontend
+    image: siome-view:latest
+    volumes:
+      - './:/app'
+      - '/app/node_modules'
+    ports:
+      - 3000:3000
+    stdin_open: true
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+    command: npm start
+    networks:
+      - siome-network
+
+networks:
+  siome-network:

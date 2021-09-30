@@ -1,0 +1,62 @@
+@import '../../../constants'
+
+.accordion-card
+  width: 900px
+  background-color: transparent !important
+  color: $grayFont
+  border-radius: 0 !important
+  border-left: none !important
+  border-right: none !important
+  border-color: $darkestGray !important
+
+.accordion-card:hover
+  background-color: $menuBackgroundColor !important
+
+.accordion-header, .accordion-header:focus
+  background-color: transparent
+  border: none
+  outline: none
+  text-align: left !important
+  font-weight: bold
+  letter-spacing: 0.5px
+  color: $grayFont
+  padding: 15px 0 15px 0
+  margin-top: -1px
+  border-left: 5px solid transparent
+
+.accordion-header-wrapper
+  display: flex
+  flex-direction: row
+  align-items: center
+
+.accordion-header:hover .accordion-header-icon
+  color: #7fa650
+
+.card-body
+  background-color: $menuBackgroundColor
+  padding: 5px 0 15px 0!important
+
+.accordion-header-text
+  margin-left: 19px
+
+.accordion-body-text
+  margin-left: 40px
+  margin-right: 40px
+
+.accordion-header.open, .accordion-header.closed:hover
+  background-color: $menuBackgroundColor
+  color: $lightGrayFont
+  border-left: 5px solid #7fa650 !important
+
+.accordion-header.closed
+  color: $grayFont
+
+.accordion-header-icon.open
+  transform: rotate(90deg)
+  color: #7fa650
+
+.accordion-header-icon
+  margin-left: 10px
+  transition: 0.5s
+  transition-property: transform
+

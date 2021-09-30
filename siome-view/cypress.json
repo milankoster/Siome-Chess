@@ -1,0 +1,10 @@
+{
+  "baseUrl": "http://localhost:3000/",
+  "env": {
+    "auth_base_url": "http://localhost:8080/auth",
+    "auth_realm": "Siome",
+    "auth_client_id": "SiomeApp"
+  },
+  "viewportHeight": 1080,
+  "viewportWidth": 1920
+}

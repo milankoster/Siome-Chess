@@ -1,0 +1,90 @@
+.home-wrapper
+  width: 100% !important
+
+  .chessboard-image
+    width: 100%
+    min-width: 26em //18em for media
+    max-width: 35em
+    margin-left: auto
+    margin-right: auto
+    display: block
+    padding-top: 4em
+
+  .header-text
+    margin-left: auto
+    margin-right: auto
+    display: block
+    text-align: center
+    color: white
+    font-weight: bold
+    font-size: 3.15em
+    line-height: 3.5rem
+    padding-top: 10vh
+    max-width: 25rem
+
+  .subheader-text
+    padding-top: 1.5rem
+    padding-bottom: 1.5rem
+    text-align: center
+    font-size: 1.3rem
+    color: gray
+
+  .button
+    margin-left: auto
+    margin-right: auto
+    display: flex
+    flex-direction: row
+    min-height: 6.3rem
+    text-decoration: none
+
+    &#computer
+      margin-top: 2rem
+
+    &#play:hover
+      box-shadow: 0 0.25rem 0.9rem #7fa650
+
+    .image
+      height: 3.1em
+      align-self: center
+      margin-left: 1em
+      margin-right: 2em
+
+      &#play
+        filter: drop-shadow(0 3px 3px #537133)
+      &#computer
+        filter: drop-shadow(0 3px 3px #1c1b1b)
+
+    .text
+      text-align: left
+      margin-top: .35rem
+      .header
+        font-size: 1.8em
+        line-height: 1em
+        padding-bottom: .2em
+        padding-top: .2em
+        font-weight: bold
+      .subheader
+        font-size: .9em
+
+
+  .button a:hover
+    text-decoration: none
+
+  @media (min-width: 1005.02px)
+    .button
+      width: 31vw
+      max-width: 24rem
+      min-width: 20.6rem
+
+  @media (max-width: 1005px)
+    .chessboard-column
+      display: none
+    .button
+      width: 45vw
+      min-width: 21rem
+    .header-text
+      max-width: 35rem
+      font-size: 2.5em
+      line-height: 3rem
+      padding-top: 2vh
+

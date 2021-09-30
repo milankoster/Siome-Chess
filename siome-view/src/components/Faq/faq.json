@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "header": "What's the aim of this project?",
+      "body": "My main goal is learn a variety of new techniques. I will do so by creating a website on which you can easily play a game of chess against your friends. Later this might be expanded into playing against random opponents or a computer."
+    },
+    {
+      "header": "Why did you choose this project?",
+      "body": "I decided to create a chess website because chess is a hobby I've pursued on an off over the years. The necessary techniques also fit the curriculum of the third semester quite well, so it seemed like a good project to combine the two in."
+    },
+    {
+      "header": "What techniques are you using?",
+      "body": "The front-end is written in React, whereas the back-end is written in Java Spring Boot. Among other things, I use microservices to distribute server load, keycloak for authentication and websockets."
+    },
+    {
+      "header": "Why did you recreate chess.com?",
+      "body": "I used the visual style of chess.com because it's one of the most commonly known chess websites and the one I frequently use. I wanted to lay the main focus on the functionality rather than webdesign, while keeping things stylish."
+    },
+    {
+      "header": "What should you put on a FAQ page?",
+      "body": "I'm honestly at a loss."
+    }
+  ]
+}

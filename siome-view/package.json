@@ -1,0 +1,61 @@
+{
+  "name": "siome",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.34",
+    "@fortawesome/free-regular-svg-icons": "^5.15.2",
+    "@fortawesome/free-solid-svg-icons": "^5.15.2",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.3",
+    "@testing-library/user-event": "^12.6.0",
+    "bootstrap": "^4.5.3",
+    "chessground": "^7.11.1",
+    "chessjs": "0.0.1",
+    "keycloak-js": "^13.0.0",
+    "node-sass": "^4.14.1",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.4.3",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.1",
+    "react-stompjs": "^0.5.3",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "cypress open",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@cypress/react": "^5.9.1",
+    "@react-keycloak/web": "^3.4.0",
+    "@stomp/stompjs": "^6.1.0",
+    "@testing-library/cypress": "^7.0.6",
+    "axios": "^0.21.1",
+    "chess.js": "^0.11.0",
+    "cypress": "^7.4.0",
+    "cypress-keycloak-commands": "^1.2.0",
+    "prop-types": "^15.7.2",
+    "react-chessground": "^1.5.0",
+    "react-icons": "^4.2.0",
+    "react-pro-sidebar": "^0.6.0",
+    "sockjs-client": "^1.5.1",
+    "stompjs": "^2.3.3",
+    "websocket": "^1.0.33"
+  }
+}
