@@ -5,7 +5,7 @@ Siome is a web application that allows users to play chess against one another. 
 
 Because this was a school project the focus was more on the general architecture and CI/CD as opposed to a large amount of functionality. Below you can see the functionality of a basic game of chess.
 
-<img src="https://i.imgur.com/4oxvJIP.gif" width=72%>
+<img src="https://i.imgur.com/4oxvJIP.gif" width=60%>
 
 For the full functionality of the project it's necessary to run the following files: 
 - [Service Registry](https://github.com/Desoxyr/Siome/tree/master/service-registry)
