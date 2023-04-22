@@ -1,7 +1,7 @@
 # Siome
 Siome is a web application that allows users to play chess against one another. Many websites of the like already exist, the most used being chess.com, lichess.org and Chess24.com. I have chosen to copy the styling and UX of chess.com and only implemented the basic functionality of two players playing a game against each other. 
 
-<img src="https://image.prntscr.com/image/7nO9h4zNQXWIq910K5c5pQ.png" width=70%>
+<img src="https://camo.githubusercontent.com/c88964dc6602d8646b64f2fc79860031623b8ed0f583b649bb577aac18747e7b/68747470733a2f2f692e696d6775722e636f6d2f4f6839686e79482e676966" width=70%>
 
 Because this was a school project the focus was more on the general architecture and CI/CD as opposed to a large amount of functionality. Below you can see the functionality of a basic game of chess.
 
